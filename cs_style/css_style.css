@@ -151,7 +151,7 @@ h1{
     font-size: x-large;
     margin: 0;
 }
-#imageWord{
+.imageWord{
     color: white;
     font-size: large;
 }
