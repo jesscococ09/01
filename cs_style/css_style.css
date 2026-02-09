@@ -216,6 +216,7 @@ footer {
     font-size: medium;
     margin-left: 30px;
     margin-right: 20px;
+    overflow-wrap: break-word;
 }
 
 #justThis {
@@ -273,6 +274,9 @@ footer {
     margin: 10px 0 0 0;
     line-height: 1.4;
     padding: 0 30px;
+}
+.div10>div{
+    min-width: 0;
 }
 
 .div11 {
