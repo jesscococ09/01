@@ -328,6 +328,14 @@ footer {
 }
 
 @media (max-width: 900px) {
+    .div10 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .div10 > div {
+        padding: 0 10px;
+    }
     .div11 {
         flex-direction: column;
         align-items: center;
