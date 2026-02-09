@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 header {
@@ -34,6 +35,7 @@ nav {
 
 #div1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -55,6 +57,7 @@ nav {
 .navUl {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     margin: 0;
@@ -244,6 +247,7 @@ footer{
     display: flex;
     gap: 0;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .div12{
     flex: 1;
